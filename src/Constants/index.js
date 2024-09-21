@@ -251,7 +251,7 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
     deskScale: isSmall ? 0.05 : isMobile ? 0.06 : 0.065,
     deskPosition: isMobile ? [0.5, -4.5, 0] : [0.25, -5.5, 0],
     cubePosition: isSmall
-      ? [3, -6.5, 0]
+      ? [3, -6.2, 0]
       : isMobile
       ? [7, -6, 0]
       : isTablet
@@ -274,7 +274,7 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
     targetPosition: isSmall
       ? [-5, -10, -10]
       : isMobile
-      ? [-9, -10, -10]
+      ? [-11, -10, -10]
       : isTablet
       ? [-15, -7, -10]
       : [-13, -13, -10],

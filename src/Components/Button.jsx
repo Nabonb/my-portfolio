@@ -1,6 +1,9 @@
+/* eslint-disable react/prop-types */
 const Button = ({ name, isBeam = false, containerClass }) => {
   return (
-    <button className={`btn ${containerClass}`}>
+    <button
+      className={`btn ${containerClass} hover:text-white hover:backdrop-blur-sm hover:bg-white/30`}
+    >
       {isBeam && (
         <span className="relative flex h-3 w-3">
           <span className="btn-ping" />
