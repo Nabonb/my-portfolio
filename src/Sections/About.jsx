@@ -59,7 +59,6 @@ const About = () => {
                 height={326}
                 width={326}
                 backgroundColor="rgba(0,0,0,0)"
-                backgroundImageUrl={0.5}
                 showAtmosphere
                 showGraticules
                 globeImageUrl="//unpkg.com/three-globe/example/img/earth-night.jpg"
@@ -73,7 +72,7 @@ const About = () => {
                     size: 120,
                   },
                 ]}
-              ></Globe>
+              />
             </div>
             <div>
               <p className="grid-headtext">
