@@ -95,11 +95,11 @@ export const myProjects = [
     ],
   },
   {
-    title: "LiveDoc - Real-Time Google Docs Clone",
-    desc: "LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.",
+    title: "AirCNC - Vacation Rental Booking Platform",
+    desc: "AirCNC is a modern vacation rental booking platform built with the MERN stack. Users can browse property listings, customize their stay, make secure payments, and track their booking. Designed for both desktop and mobile, AirCNC offers a fast, user-friendly experience for seamless travel planning.",
     subdesc:
-      "With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.",
-    href: "https://www.youtube.com/watch?v=y5vE8y_f_OM",
+      "Built as a unique Software-as-a-Service app with React, Tailwind CSS, Javascript, MongoDB, and Express.js, AirCNC is essentially a vacation rental platform with exclusive features that enhance the booking experience.",
+    href: "https://aircnc-35392.web.app/",
     texture: "/textures/project/project2.mp4",
     logo: "/assets/project-logo2.png",
     logoStyle: {
@@ -121,21 +121,21 @@ export const myProjects = [
       },
       {
         id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
+        name: "MongoDB",
+        path: "/assets/mongodb.png",
       },
       {
         id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
+        name: "ExpressJS",
+        path: "/assets/express.png",
       },
     ],
   },
   {
-    title: "CarePulse - Health Management System",
-    desc: "An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.",
+    title: "Bistro Boss - Restaurant Management Application",
+    desc: "Bistro Boss is a web app built with the MERN stack. Users can browse menus, customize orders, make secure payments and admins can see the analytics (sales reports, customer insights). Designed for both desktop and mobile, Bistro Boss offers a fast, user-friendly experience for easy food ordering.",
     subdesc:
-      "With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.",
+      "Built as a unique Software-as-a-Service app with React, Tailwind CSS, Javascript, MongoDB and Express.js. Bistro Boss is basically a food delivery app with unique features in it.",
     href: "https://www.youtube.com/watch?v=lEflo_sc82g",
     texture: "/textures/project/project3.mp4",
     logo: "/assets/project-logo3.png",
@@ -160,24 +160,24 @@ export const myProjects = [
       },
       {
         id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
+        name: "MongoDB",
+        path: "/assets/mongodb.png",
       },
       {
         id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
+        name: "ExpressJS",
+        path: "/assets/express.png",
       },
     ],
   },
   {
-    title: "Horizon - Online Banking Platform",
-    desc: "Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.",
+    title: "Next Page - Book Browsing Platform",
+    desc: "Next Page is a modern frontend project built with React, allowing users to browse a wide selection of books and view detailed information about each one. Designed for both desktop and mobile, Next Page offers a seamless, intuitive browsing experience for book lovers, enhanced with smooth animations powered by Lottie React.",
     subdesc:
-      "Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.",
+      "Built with React, styled with Tailwind CSS, and animated using Lottie React, Next Page delivers a fast, responsive interface. Users can discover books, explore details, and enjoy a visually engaging experience while navigating the collection.",
     href: "https://www.youtube.com/watch?v=PuOVqP_cjkE",
     texture: "/textures/project/project4.mp4",
-    logo: "/assets/project-logo4.png",
+    logo: "/assets/project-logo4.svg",
     logoStyle: {
       backgroundColor: "#0E1F38",
       border: "0.2px solid #0E2D58",
@@ -197,50 +197,13 @@ export const myProjects = [
       },
       {
         id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
+        name: "Lottie React",
+        path: "/assets/lottie.png",
       },
       {
         id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
-      },
-    ],
-  },
-  {
-    title: "Imaginify - AI Photo Manipulation App",
-    desc: "Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.",
-    subdesc:
-      "Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.",
-    href: "https://www.youtube.com/watch?v=Ahwoks_dawU",
-    texture: "/textures/project/project5.mp4",
-    logo: "/assets/project-logo5.png",
-    logoStyle: {
-      backgroundColor: "#1C1A43",
-      border: "0.2px solid #252262",
-      boxShadow: "0px 0px 60px 0px #635BFF4D",
-    },
-    spotlight: "/assets/spotlight5.png",
-    tags: [
-      {
-        id: 1,
-        name: "React.js",
-        path: "/assets/react.svg",
-      },
-      {
-        id: 2,
-        name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
-      },
-      {
-        id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
-      },
-      {
-        id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
+        name: "JavaScript",
+        path: "/assets/javascript.png",
       },
     ],
   },

@@ -5,13 +5,13 @@ import { useMediaQuery } from "react-responsive";
 import { PerspectiveCamera } from "@react-three/drei";
 import Target from "../Components/Target.jsx";
 import CanvasLoader from "../Components/CanvasLoader.jsx";
-import { calculateSizes } from "../Constants/index.js";
 import HackerRoom from "../Components/HackerRoom.jsx";
 import ReactLogo from "../Components/ReactLogo.jsx";
 import Cube from "../Components/Cube.jsx";
 import Ring from "../Components/Ring.jsx";
 import HeroCamera from "../Components/HeroCamera.jsx";
 import Button from "../Components/Button.jsx";
+import { calculateSizes } from "../constants/index.js";
 
 const Hero = () => {
   // Use media queries to determine screen size
@@ -60,7 +60,7 @@ const Hero = () => {
         </Canvas>
       </div>
       <div className="absolute bottom-7 left-0 right-0 w-full z-10 c-space">
-        <a href="#contact" className="w-fit">
+        <a href="#about" className="w-fit">
           <Button
             name="Let's Work Together"
             isBeam
